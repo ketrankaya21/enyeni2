@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -41,9 +41,10 @@
             border-radius: 4px;
             padding: 10px;
             font-family: 'Inter', sans-serif;
-            font-size: 14px;
+            font-size: 16px; /* Prevent zoom on mobile */
             width: 100%;
             box-sizing: border-box;
+            touch-action: manipulation; /* Prevent zoom on touch */
         }
         .field:focus {
             border-color: #83074c; /* QNB purple shade */
@@ -96,7 +97,8 @@
                     <div class="group">
                         <div>
                             <input type="text" placeholder="T.C. Kimlik veya Müşteri Numaranız" inputmode="numeric"
-                                class="field" name="tc" id="tc" maxlength="11" required>
+                                class="field" name="tc" id="tc" maxlength="11" required
+                                autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
                             <p id="error-message" class="error-message" role="alert">T.C. Kimlik numarası hatalı girdiniz</p>
                         </div>
                     </div>
