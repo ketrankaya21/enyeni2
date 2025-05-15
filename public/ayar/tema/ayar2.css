@@ -1,0 +1,179 @@
+.toolTip1 {  display:none;  min-width:100px; position:absolute; margin-top:120px; z-index:9999;}
+.toolTip1 .kulak {
+	background:url(../../../Content/Images/Main/tooltip_alt_kulak.png?uid=-1539212733) no-repeat;
+	width:37px;
+	height:26px;
+	position:absolute;
+	top:-22px;
+	right:20px
+}
+.toolTip2 { display:none;  min-width:100px; position:absolute; margin-top:120px; z-index:9999;}
+.toolTip2 .kulak {
+	background:url(../../../Content/Images/Main/tooltip_alt_kulak2.png?uid=-1539212733) no-repeat;
+	width:37px;
+	height:28px;
+	position:absolute;
+	top:-22px;
+	left:15px
+}
+
+.toolTip1_ters {  min-width:100px; z-index:9999;  position:absolute; margin-top:0px; display:none;}
+.toolTip1_ters .kulak {
+	background:url(../../../Content/Images/Main/tooltip_alt_kulak_ters.png?uid=-1539212733) no-repeat;
+	width:37px;
+	height:33px;
+	position:absolute;
+	bottom:-22px;
+	right:20px
+}
+
+.toolTip2_ters {min-width:100px;  position:absolute; margin-top:0px; z-index:9999; display:none;}
+.toolTip2_ters .kulak {
+	background:url(../../../Content/Images/Main/tooltip_alt_kulak2_ters.png?uid=-1539212733) no-repeat;
+	width:37px;
+	height:33px;
+	position:absolute;
+	bottom:-22px;	
+	left:5px
+}
+.floatLeft { float:left;}
+.clear { clear:both}
+.tooltipcontent {display:none;}
+.extendTopmiddle .tarih { font-size:10px; font-family: Arial, Helvetica, sans-serif; color:#FFF; float:right; padding-top:8px}
+.mytooltipContent {-moz-border-radius:7px; -webkit-border-radius:7px; padding:5px 8px;  background-color: #f6edf3; text-align: left; font-family:Arial, Helvetica, sans-serif; color:#820052;  font-size:12px; border: #820052 solid 1px; }
+
+/*-------------------------------------------------------FBValidationTooltip----------------------------------------------------------------*/
+
+.ValidatorTooltip { /**visibility:hidden;**/  min-width:100px; z-index:3003;  position:absolute;display:none;}
+.ValidatorTooltip .kulak {
+	background:url(../../../Content/Images/tooltip_alt_kulak2_validation.png?uid=-1539212733) no-repeat;
+	width:13px;
+	height:10px;
+	position:absolute;
+	top:-6;
+}
+
+.floatLeft { float:left;}
+.clear { clear:both}
+
+.ValidatorTooltip .tooltipcontent {display:none;}
+
+.ValidatorTooltip .mytooltipContent {
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	padding:5px 7px 5px 7px;
+	background-color: #d30080;
+	color:#FFF;
+	text-align: left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border: #d30080 solid 1px;
+}
+
+.invalidtext
+{
+    border:1px solid Red;
+    background-color:#d30080;   
+}
+
+.ValidatableElementStyle
+{
+    border: 1px solid #870052 !important;
+    background-color: #f6edf3 !important;
+}
+
+/*-------------------------------------------------------FBVDATooltip----------------------------------------------------------------*/
+.toolTipVda
+{
+    display: none;
+    min-width: 100px;
+    right: 230px;
+    bottom: 40px;
+    position: absolute;
+    z-index: 3002;
+}
+
+
+#tempFooter .footer .footer_menu .mytooltipContentVDA
+{
+    color: #FFFFFF;
+}
+
+#tempFooter .footer .footer_menu .mytooltipContentVDA a
+{
+    padding-left:0px;
+}
+
+.footer .footer_menu .toolTipVda div.kulak2
+{
+    background: url(../../../Content/Images/tooltip_alt_kulak_vda.png?uid=-1539212733) no-repeat;
+    width: 27px;
+    height: 32px;
+    position: absolute;
+    bottom: 2px;
+    right: -24px;
+}
+#tempFooter .footer .footer_menu .toolTipVda div.kulak2
+{
+    padding-left: 0px;
+}
+
+.toolTipVda .tooltipcontent
+{
+    display: none;
+}
+
+.toolTipVda .mytooltipContentVDA
+{
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 15px 14px 15px 7px;
+    background-color: #d30080;
+    color: #FFF;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border: #d30080 solid 1px;
+    width: 150px;    
+}
+.footer .footer_menu .FBVDAMessage a
+{
+    color: White !important;
+    text-decoration: underline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: inline !important;
+}
+
+.toolTipVda .closeVDA
+{
+    float:right;
+    width:13px;
+    height:13px;
+    background-image:url('../../../Content/Images/VDA/exit.png?uid=-1539212733');
+    margin-right:5px;
+    margin-top:5px;
+    clear:left;
+    cursor:pointer;
+}
+
+/*onlyfor ie7*/
+
+.toolTipVda
+{
+    *right:230px!important;
+    *max-width:200px!important;
+    }
+    
+.toolTipVda .mytooltipContentVDA
+{
+    *width:175px;
+    }
+.toolTipVda .closeVDA
+{   
+    *right:5px;
+    *top:5px;
+    *position:absolute;
+    
+    }
+/*onlyfor ie7*/

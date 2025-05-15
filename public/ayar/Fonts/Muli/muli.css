@@ -1,0 +1,19 @@
+/*
+    Mulish Font Face Styles
+*/
+@font-face {
+    font-family: 'Muli';
+    src: url('Mulish-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Muli Light';
+    src: url('Mulish-VariableFont_wght.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Muli Bold';
+    src: url('Mulish-VariableFont_wght.ttf');
+    font-weight: 700;
+}

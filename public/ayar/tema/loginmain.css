@@ -1,0 +1,609 @@
+/*------------------RESET CSS***********/
+
+* {
+    outline: 0 none;
+    border-radius: 0;
+  }
+  
+  caption, div {
+    text-align: left;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+  }
+  
+  a:visited {color:#116fc4;}  /* visited link */
+  
+  abbr, acronym {
+    border: 0 none !important;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  ol, ul, li {
+    list-style: none;
+  }
+  
+  body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, hr, a {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+  }
+  
+  body, div, h1, h2, h3, h4, h5, h6, p, th, td, form, fieldset, input, textarea {
+    zoom: 1;
+  }
+  
+  fieldset, img {
+    border: 0;
+  }
+  
+  address, caption, cite, code, dfn, em, th, var {
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  q:before, q:after {
+    content: '';
+  }
+  button {
+      outline: none;
+      border: none;
+      border-radius: 0;
+  }
+  button:hover {
+      color: inherit;
+  }
+  
+  button:active, button:focus {
+      color: inherit;
+      box-shadow: 0 0 0;
+      outline: none;
+  }
+  
+  /*------------------GLOBAL CSS***********/
+  
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  a {
+    transition: color 0.2s ease-in-out 0s, background-color 0.3s ease 0s;
+    -ms-transition: color 0.2s ease-in-out 0s, background-color 0.3s ease 0s;
+  
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #000f33;
+    background: #fff;
+  }
+  
+  
+  .clr {
+    clear: both;
+    height: 0px;
+  }
+  
+  .btn {
+    cursor: pointer;
+    display: block;
+  }
+  
+  .input {
+    outline: 0;
+    background: none;
+    border: 0 none;
+  }
+  
+  .fl {
+    float: left !important;
+  }
+  
+  .fr {
+    float: right !important;
+  }
+  
+  .mRn {
+    margin-right: 0 !important;
+  }
+  
+  .mLn {
+    margin-left: 0 !important;
+  }
+  .mBn{margin-bottom: 0 !important;}
+  .mTn{margin-top:  0 !important;}
+  .pRn {
+    padding-right: 0 !important;
+  }
+  
+  .pLn {
+    padding-left: 0 !important;
+  }
+  
+  .bLn {
+    border-left: 0 none !important;
+  }
+  
+  .bRn {
+    border-right: 0 none !important;
+  }
+  
+  .bn {
+    border: 0 none !important;
+  }
+  
+  .bgN {
+    background: none !important;
+  }
+  .taL{text-align: left;}
+  .taR{text-align: right;}
+  
+  .container {
+    margin: 0 auto;
+    width: 983px;
+    position: relative;
+  }
+  
+  #wrapper {
+    width: 100%;
+    min-width: 983px;
+    position: relative;
+    z-index: 10;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    overflow: hidden
+  }
+  
+  #wrapper a {
+    color:#800d52;text-decoration: underline;
+  }
+  #wrapper a:hover {
+  text-decoration: none;
+  }
+  
+  #wrapper img {
+    display: block;
+  }
+  
+  .layout{width: 983px;}
+  section{padding:15px;}
+  .process-box{border:2px solid #d7d7d7;border-radius:10px;padding: 30px;float: left;width: 65%;min-height: 380px;}
+  .process-box h3{color:#800d52;font-weight: bold;font-size:13px;margin-bottom: 10px;}
+  .process-left{width: 50%;float: left;margin-bottom: 0px;}
+  .process-right{width: 50%;float:right;}
+  .info-box{float: left;width: 35%;padding:0px 0px 0px 0px;}
+  .info-box h3{font-size: 13px;font-weight: bold;margin-bottom: 10px;}
+  .info-box p{line-height: 140%;padding: 0 0 5px 15px;background: url(../../../Content/Images/arrow.png?uid=-1538995311) no-repeat left 4px;}
+  .info-box-dk{float: right;width: 35%;padding:0px 0px 0px 0px; margin-top:-25px;}
+  .info-box-dk h3{font-size: 13px;font-weight: bold;margin-bottom: 10px;}
+  .info-box-dk p{line-height: 140%;padding: 0 0 5px 15px;background: url(../../../Content/Images/arrow.png?uid=-1538995311) no-repeat left 4px;}
+  .form-group {
+      position:relative;
+      margin-bottom: 20px;
+  }
+  .form-group label {
+      display: block;
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: 15px;
+  }
+  
+  .form-group input {
+      width: 100%;
+      background-color: #ffffff;
+      border: 1px solid #cccccc;
+      height: 34px;
+      font-size: 13px;
+      padding-left: 15px;
+      border-radius: 3px;
+  }
+  .form-group input.error {
+      border: 1px solid #891e5e;
+  }
+  .form-group textarea {
+      width: 100%;
+      background-color: #ffffff;
+      border: 1px solid #cccccc;
+      font-size: 13rem;
+      resize: none;
+      padding: 12px 15px;
+      outline: none;
+  }
+  .form-group .captcha-img{border-radius: 3px;border: 1px solid #cccccc;width: 100%;}
+  .form-group .form-info-tooltip{min-height:100%; color:#116fc4; background-color: #eeeeee;border-radius: 3px;padding: 15px;position: absolute;width: 100%;right: -290px;line-height: 140%;top: 29px; background: url(../../../Content/Images/alert-icon.png?uid=-1538995311) no-repeat center right 23px #eeeeee;}
+  .process-right .form-info-tooltip-error{min-height:100%; color:#116fc4; border-radius: 3px;padding:15px;width: 100%;line-height: 140%; padding-right: 80px;background: url(../../../Content/Images/alert-icon.png?uid=-1538995311) no-repeat center right 23px #eeeeee;margin: 30px 0 0 13px;}
+  .process-right .form-info-tooltip-error p{padding-bottom: 10px}
+  .process-right .captcha-box{border-radius: 3px;padding: 15px;line-height: 140%;;margin: 30px 0 0 -4px;border: 1px solid #cccccc;text-align: center; width:273px; height:120px;}
+  .process-right .captcha-box .captcha-area{display: inline-block;margin: 0 auto;margin-bottom: 17px}
+  .process-right .captcha-box .captcha-area img{float: left}
+  .process-right .captcha-box .captcha-area img.captcha-refresh-btn{margin-top: 7px}
+  .form-group .form-info-tooltip.hourglass{background: url(../../../Content/Images/hourglass.png?uid=-1538995311) no-repeat center right 23px #eeeeee;padding-right: 90px;}
+  .form-group .form-info-tooltip::after{width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 6px 6px 0;
+  border-color: transparent #eeeeee transparent transparent;content: '';    position: absolute;
+      left: -6px;
+      top: 15%;}
+  span.error {
+      color: #ff0000;
+      font-size: 13px;
+  }
+  .form-button {
+      width: 100%;
+      color: #fff;
+      background-color: #800d52;
+      padding: 12px 20px;
+      border: 0;
+      text-align: left;
+      border-radius: 3px;
+      cursor: pointer;
+      text-align: center;
+      margin-top: 20px;
+  }
+  .form-button:hover {background-color: #62024a;color:#fff;}
+  .footer{position: relative;padding: 15px;background: url(../../../Content/Images/footer-bg.jpg?uid=-1538995311) repeat-x #ded7d2;}
+  .footer a.norton-logo{width: 71px;height: 38px;display: block;background: url(../../../Content/Images/norton-logo.png?uid=-1538995311) no-repeat 0 0;position: absolute;top:-11px;}
+  .footer span.copyright{float: left;display: inline-block;padding-left: 90px;}
+  .footer ul.foot-links{margin: 0;padding: 0;list-style: none;float: right;}
+  .footer ul.foot-links li{float: left;}
+  .footer ul.foot-links li a{text-decoration: none !important;font-size: 11px !important;color:#312a25 !important;font-weight: bold;padding: 0px 10px;border-right: 1px solid #b5aea9;}
+  .footer ul.foot-links li a.last{padding-right: 0px;border: none;}
+  .footer ul.foot-links li a:hover{text-decoration: underline !important;}
+  
+  .loginlabel {
+      display: block;
+  
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: 15px;
+  }
+  
+  .loginlink {
+      margin-left: 0px !important;
+      color: #800d52;
+      text-decoration: underline;
+  }
+  
+  .form-group .form-info-tooltip-captcha{min-height:100%; color:#116fc4; background-color: #eeeeee;border-radius: 3px;padding: 15px;position: absolute;width: 100%;right: -290px;line-height: 140%;top: 29px; background: url(../../../Content/Images/alert-icon.png?uid=-1538995311) no-repeat center right 23px #eeeeee;}
+  .form-group .form-info-tooltip-captcha::after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 6px 6px 6px;
+      border-color: transparent transparent #eeeeee transparent;
+      content: '';
+      position: absolute;
+      top: -17%;
+  }
+  
+  .form-group .form-info-tooltip-sms {
+      background-color: #eeeeee;
+      border-radius: 3px;
+      padding: 15px;
+      position: absolute;
+      width: 46%;
+      right: 0px;
+      line-height: 140%;
+      top: 29px;
+      color:#116fc4;
+      background: url(../../../Content/Images/alert-icon.png?uid=1764792572) no-repeat center right 23px #eeeeee;
+  }
+  
+  .form-group .form-info-tooltip-sms.hourglass {
+      background: url(../../../Content/Images/hourglass.png?uid=-1538995311) no-repeat center right 23px #eeeeee;
+      padding-right: 90px;
+  }
+  .form-group .form-info-tooltip-sms::after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 6px 6px 0;
+      border-color: transparent #eeeeee transparent transparent;
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 15%;
+  }
+  
+  .form-group .form-info-tooltip-hourglass {
+      background-color: #eeeeee;
+      border-radius: 3px;
+      padding: 15px;
+      position: absolute;
+      width: 46%;
+      right: 0px;
+      line-height: 140%;
+      top: 29px;
+      color:#116fc4;
+      min-height:100%;
+      background: url(../../../Content/Images/hourglass.png?uid=1764792572) no-repeat center right 23px #eeeeee;
+  }
+  
+  .form-group .form-info-tooltip-hourglass::after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 6px 6px 0;
+      border-color: transparent #eeeeee transparent transparent;
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 15%;
+  }
+  
+  .form-group .form-info-tooltip-text {
+      background-color: #eeeeee;
+      border-radius: 3px;
+      padding: 15px;
+      position: absolute;
+      width: 46%;
+      right: 0px;
+      line-height: 140%;
+      top: 29px;
+  }
+  
+  .form-group .form-info-tooltip-text.hourglass {
+      background: url(../../../Content/Images/hourglass.png?uid=-1538995311) no-repeat center right 23px #eeeeee;
+      padding-right: 90px;
+  }
+  .form-group .form-info-tooltip-text::after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 6px 6px 0;
+      border-color: transparent #eeeeee transparent transparent;
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 15%;
+  }
+  
+  
+  .form-group .form-info-tooltip-changepass {
+      background-color: #eeeeee;
+      border-radius: 3px;
+      padding: 15px;
+      position: absolute;
+      width: 50%;
+      right: -16px;
+      line-height: 140%;
+      top: 30px;
+      color:#116fc4;
+      min-height:100%;
+      background: url(../../../Content/Images/alert-icon.png?uid=1764792572) no-repeat center right 23px #eeeeee;
+  }
+  
+  .form-group .form-info-tooltip-changepass.hourglass {
+      background: url(../../../Content/Images/hourglass.png?uid=-1538995311) no-repeat center right 10px #eeeeee;
+      padding-right: 90px;
+  }
+  .form-group .form-info-tooltip-changepass::after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 6px 6px 0;
+      border-color: transparent #eeeeee transparent transparent;
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 15%;
+  }
+  
+  
+  
+  .form-group .form-info-tooltip-changepasstxt {
+      background-color: #eeeeee;
+      border-radius: 3px;
+      padding: 15px;
+      position: absolute;
+      width: 50%;
+      right: -16px;
+      line-height: 140%;
+      top: 30px;
+  }
+  
+  .form-group .form-info-tooltip-changepasstxt.hourglass {
+      background: url(../../../Content/Images/hourglass.png?uid=-1538995311) no-repeat center right 10px #eeeeee;
+      padding-right: 90px;
+  }
+  .form-group .form-info-tooltip-changepasstxt::after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 6px 6px 0;
+      border-color: transparent #eeeeee transparent transparent;
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 15%;
+  }
+  
+  .form-group .form-info-tooltip-tckn {
+      background-color: #eeeeee;
+      border-radius: 3px;
+      padding: 15px;
+      position: absolute;
+      width: 46%;
+      height: 100%;
+      right: 0px;
+      line-height: 140%;
+      top: 104px;
+      color:#116fc4;
+      min-height:100%;
+      background: url(../../../Content/Images/alert-icon.png?uid=1764792572) no-repeat center right 23px #eeeeee;
+  }
+  
+  .form-group .form-info-tooltip-tckn.hourglass {
+      background: url(../../../Content/Images/hourglass.png?uid=-1538995311) no-repeat center right 23px #eeeeee;
+      padding-right: 90px;
+  }
+  .form-group .form-info-tooltip-tckn::after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 6px 6px 0;
+      border-color: transparent #eeeeee transparent transparent;
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 15%;
+  }
+  
+  
+  .form-group .form-info-tooltip-image {
+      background-color: #eeeeee;
+      border-radius: 3px;
+      padding: 15px;
+      position: absolute;
+      width: 97%;
+      right: 19px;
+      line-height: 140%;
+      top: -67px;
+  }
+  .form-group .form-info-tooltip-image::after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 6px 6px 0;
+      border-color: transparent #eeeeee transparent transparent;
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 15%;
+  }
+  
+  .form-group .form-info-tooltip-image-error {
+      background-color: #eeeeee;
+      border-radius: 3px;
+      padding: 15px;
+      position: absolute;
+      width: 97%;
+      right: 19px;
+      line-height: 140%;
+      top: -67px;
+      color:#116fc4;
+      min-height:100%;
+      background: url(../../../Content/Images/alert-icon.png?uid=1764792572) no-repeat center right 23px #eeeeee;
+  }
+  
+  .form-group .form-info-tooltip-image-error::after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 6px 6px 0;
+      border-color: transparent #eeeeee transparent transparent;
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 15%;
+  }
+  
+  
+  .form-group .form-info-tooltip-qr {
+      background-color: #eeeeee;
+      border-radius: 3px;
+      padding: 15px;
+      position: absolute;
+      width: 46%;
+      right: 0px; 
+      top: 16px; 
+  }
+  
+  .form-group .form-info-tooltip-qr::after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 6px 6px 0;
+      border-color: transparent #eeeeee transparent transparent;
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 15%;
+  }
+  
+  .form-group .form-info-tooltip-qr-hourglass {
+      background: url(../../../Content/Images/hourglass.png?uid=-1538995311) no-repeat center right 23px #eeeeee;
+      padding-right: 90px;
+      background-color: #eeeeee;
+      border-radius: 3px;
+      padding: 15px;
+      position: absolute;
+      width: 46%;
+      right: 0px; 
+      top: 30px; 
+      color:#116fc4;
+  }
+  .form-group .form-info-tooltip-qr-hourglass::after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 6px 6px 0;
+      border-color: transparent #eeeeee transparent transparent;
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 15%;
+  }
+  
+  
+  .form-group .form-info-tooltip-qr-error {
+      background-color: #eeeeee;
+      border-radius: 3px;
+      padding: 15px;
+      position: absolute;
+      width: 46%;
+      right: 0px; 
+      top: 30px;
+      color:#116fc4; 
+      background: url(../../../Content/Images/alert-icon.png?uid=1764792572) no-repeat center right 23px #eeeeee;
+  }
+  
+  .form-group .form-info-tooltip-qr-error::after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 6px 6px 0;
+      border-color: transparent #eeeeee transparent transparent;
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 15%;
+  }
+  
+  
+  .form-group .form-info-tooltip-mobilesign {
+      background-color: #eeeeee;
+      border-radius: 3px;
+      padding: 15px;
+      position: absolute;
+      width: 46%;
+      right: 0px; 
+      top: -150px; 
+      line-height: 140%;
+  }
+  
+  .form-group .form-info-tooltip-mobilesign::after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 6px 6px 0;
+      border-color: transparent #eeeeee transparent transparent;
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 50%;
+  }
+  
+  .process-right .captcha-box .tooltip {
+      opacity: 1;
+  }

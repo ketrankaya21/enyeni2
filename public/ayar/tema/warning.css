@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.warning_container { width:645px; height:405px; margin:0; padding:0; position:relative; border:1px solid #bdc1e6}
+.lt_corner { position:absolute; top:-1px; left:-1px; width:7px; height:8px}
+.lr_corner {position:absolute; top:-1px; right:-1px; width:7px; height:8px}
+.bl_corner {position:absolute; bottom:-1px; left:-1px; width:7px; height:8px}
+.br_corner {position:absolute; bottom:-1px; right:-1px; width:7px; height:8px}
+
+.warning_image {
+	background: url(../../../Content/Images/security.jpg?uid=-1539048639) no-repeat;
+	width:135px;
+	height:289px;
+	position:absolute;
+	top:35px;
+	left:15px;
+}
+.warning_text { position:absolute; left:185px; top:20px; width:450px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#4a4949}
+.warning_text h1 { font-size:18px; color:#003399; margin:0; padding:0 0 10px 0}
+.warning_text p{ margin:0; padding:0;}
+.warning_text ul{ margin:0; padding:10px 0 10px 0; list-style:none;}
+.warning_text ul li {background-image: url(../../../Content/Images/ok1.jpg?uid=-1539048639); background-repeat:no-repeat; background-position:left 4px; padding:0 0 5px 10px; font-weight:bold}

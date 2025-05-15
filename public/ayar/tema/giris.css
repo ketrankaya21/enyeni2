@@ -1,0 +1,2037 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-style: normal;
+}
+
+html {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+
+div {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    color: #394040;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.clear {
+    clear: both;
+    height: 0px;
+}
+
+#container {
+    width: 980px;
+    height: 546px;
+    overflow: hidden;
+}
+
+.header {
+    background: url(../../../ayar/Images/ResponsiveLogin/1024_intsube.jpg) no-repeat;
+    height: 70px;
+}
+
+.header-ing {
+    background: url(../../../ayar/Images/header-ing.jpg) no-repeat;
+    height: 70px;
+}
+
+.egov-header {
+    background: url(../../../ayar/Images/egov-header.jpg) no-repeat;
+    height: 70px;
+}
+
+.egov-header-ing {
+    background: url(../../../ayar/Images/egov-header-ing.jpg) no-repeat;
+    height: 70px;
+}
+
+.webLoan-header {
+    background: url(../../../ayar/Images/webLoan-header.jpg) no-repeat;
+    height: 70px;
+}
+
+.webLoan-header-ing {
+    background: url(../../../ayar/Images/webLoan-header-ing.jpg) no-repeat;
+    height: 70px;
+}
+
+.digitalBridge-header {
+    background: url(../../../ayar/Images/header_dijital_kopru.jpg) no-repeat;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.header .top_nav {
+    width: 973px;
+    text-align: right;
+    height: 25px;
+    padding-top: 3px;
+}
+
+    .header .top_nav ul {
+        list-style: none;
+    }
+
+        .header .top_nav ul li {
+            display: inline;
+            padding-left: 5px;
+        }
+
+            .header .top_nav ul li a {
+                color: #870052;
+                text-decoration: none;
+            }
+
+                .header .top_nav ul li a:link {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .header .top_nav ul li a:visited {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .header .top_nav ul li a:active {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .header .top_nav ul li a:hover {
+                    color: #3363d7;
+                    text-decoration: underline;
+                }
+
+.header-ing .top_nav {
+    width: 973px;
+    text-align: right;
+    height: 25px;
+    padding-top: 3px;
+}
+
+    .header-ing .top_nav ul {
+        list-style: none;
+    }
+
+        .header-ing .top_nav ul li {
+            display: inline;
+            padding-left: 5px;
+        }
+
+            .header-ing .top_nav ul li a {
+                color: #870052;
+                text-decoration: none;
+            }
+
+                .header-ing .top_nav ul li a:link {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .header-ing .top_nav ul li a:visited {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .header-ing .top_nav ul li a:active {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .header-ing .top_nav ul li a:hover {
+                    color: #3363d7;
+                    text-decoration: underline;
+                }
+
+.egov-header .top_nav {
+    width: 973px;
+    text-align: right;
+    height: 25px;
+    padding-top: 3px;
+}
+
+    .egov-header .top_nav ul {
+        list-style: none;
+    }
+
+        .egov-header .top_nav ul li {
+            display: inline;
+            padding-left: 5px;
+        }
+
+            .egov-header .top_nav ul li a {
+                color: #870052;
+                text-decoration: none;
+            }
+
+                .egov-header .top_nav ul li a:link {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .egov-header .top_nav ul li a:visited {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .egov-header .top_nav ul li a:active {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .egov-header .top_nav ul li a:hover {
+                    color: #3363d7;
+                    text-decoration: underline;
+                }
+
+.egov-header-ing .top_nav {
+    width: 973px;
+    text-align: right;
+    height: 25px;
+    padding-top: 3px;
+}
+
+    .egov-header-ing .top_nav ul {
+        list-style: none;
+    }
+
+        .egov-header-ing .top_nav ul li {
+            display: inline;
+            padding-left: 5px;
+        }
+
+            .egov-header-ing .top_nav ul li a {
+                color: #870052;
+                text-decoration: none;
+            }
+
+                .egov-header-ing .top_nav ul li a:link {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .egov-header-ing .top_nav ul li a:visited {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .egov-header-ing .top_nav ul li a:active {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .egov-header-ing .top_nav ul li a:hover {
+                    color: #3363d7;
+                    text-decoration: underline;
+                }
+
+
+.egov-header .top_nav {
+    width: 973px;
+    text-align: right;
+    height: 25px;
+    padding-top: 3px;
+}
+
+    .egov-header .top_nav ul {
+        list-style: none;
+    }
+
+        .egov-header .top_nav ul li {
+            display: inline;
+            padding-left: 5px;
+        }
+
+            .egov-header .top_nav ul li a {
+                color: #870052;
+                text-decoration: none;
+            }
+
+                .egov-header .top_nav ul li a:link {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .egov-header .top_nav ul li a:visited {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .egov-header .top_nav ul li a:active {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .egov-header .top_nav ul li a:hover {
+                    color: #3363d7;
+                    text-decoration: underline;
+                }
+
+.webLoan-header-ing .top_nav {
+    width: 973px;
+    text-align: right;
+    height: 25px;
+    padding-top: 3px;
+}
+
+    .webLoan-header-ing .top_nav ul {
+        list-style: none;
+    }
+
+        .webLoan-header-ing .top_nav ul li {
+            display: inline;
+            padding-left: 5px;
+        }
+
+            .webLoan-header-ing .top_nav ul li a {
+                color: #870052;
+                text-decoration: none;
+            }
+
+                .webLoan-header-ing .top_nav ul li a:link {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .webLoan-header-ing .top_nav ul li a:visited {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .webLoan-header-ing .top_nav ul li a:active {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+                .webLoan-header-ing .top_nav ul li a:hover {
+                    color: #3363d7;
+                    text-decoration: underline;
+                }
+
+.mainContent {
+    /*border: 2px solid #d7d7d7;
+    border-radius: 10px;*/
+    padding: 30px;
+    float: left;
+    width: 65%;
+    min-height: 380px;
+}
+
+    .mainContent .hata {
+        color: #870052;
+        font-size: 13px;
+        padding: 45px 0px 0px 325px;
+        height: 24px;
+        position:absolute;
+    }
+
+        .mainContent .hata a {
+            color: blue;
+            text-decoration: underline;
+        }
+
+    .mainContent .hata_2 {
+        color: #870052;
+        font-size: 13px;
+        padding: 2px 0px 2px 0px;
+        height: 20px;
+    }
+
+    .mainContent .top {
+        padding: 20px 0px 0px 25px;
+        height: 20px;
+    }
+
+    .mainContent .textfield {
+        width: 100%;
+        height: 34px;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        height: 34px;
+        font-size: 13px;
+        padding-left: 15px;
+        border-radius: 3px;
+    }
+
+    .mainContent.sso {
+        height: 77px;
+        margin-left: 23px;
+        margin-top: 12px;
+        width: 723px;
+        min-height :160px;
+    }
+
+        .mainContent.sso ul li {
+            padding-left: 0;
+            padding-top: 0;
+            background: none;
+        }
+
+        .mainContent.sso ul {
+            list-style: none;
+            padding-left: 0px;
+        }
+
+    .mainContent .textfield:focus {
+        outline: none;
+    }
+
+    .mainContent .contentText {
+        padding: 10px 0px 0px 25px;
+    }
+
+        .mainContent .contentText .divtextfield {
+            width: 180px;
+        }
+
+    .mainContent .passive_textfield {
+        width: 280px;
+        height: 34px;
+        background-color:#ebeaec;
+        border: 1px solid #cccccc;
+        height: 34px;
+        font-size: 13px;
+        padding-left: 15px;
+        border-radius: 3px;
+    }
+
+
+    .mainContent .contentText .blankdiv {
+        padding-left: 150px;
+        padding-top: 5px;
+    }
+
+.ileriButton {
+    display: block;
+    /*width: 280px;*/
+    color: #fff;
+    background-color: #800d52;
+    padding: 12px 20px;
+    border: 0;
+    text-align: left;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px; /*position:absolute;*/
+    position: static !important;
+    height: 40px;
+    text-decoration: none;
+}
+.proceedButton {
+    display: block;
+    /*width: 280px;*/
+    color: #fff;
+    background-color: #800d52;
+    padding: 12px 20px;
+    border: 0;
+    text-align: left;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px; /*position:absolute;*/
+    position: static !important;
+    height: 40px;
+    text-decoration: none;
+}
+
+.ileriBtn {
+    display: block; /*width: 280px;*/
+    color: #fff;
+    background-color: #800d52;
+    padding: 12px 20px;
+    border: 0;
+    text-align: left;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px; /*position:absolute;*/
+    height: 40px;
+    text-decoration: none;
+}
+.proceedBtn {
+    display: block; /*width: 280px;*/
+    color: #fff;
+    background-color: #800d52;
+    padding: 12px 20px;
+    border: 0;
+    text-align: left;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px; /*position:absolute;*/
+    height: 40px;
+    text-decoration: none;
+}
+
+    .mainContent .onayBtn {
+        background: transparent url(../../../Content/Images/btn_onay.png) no-repeat;
+        border: none;
+        width: 71px;
+        height: 24px;
+        margin-top: 3px;
+        outline: none;
+        display: block;
+    }
+
+        .mainContent .onayBtn:hover {
+            background: transparent url(../../../ayar/Images/btn_onay.png) no-repeat left -24px;
+            border: none;
+            width: 71px;
+            height: 24px;
+            margin-top: 3px;
+        }
+
+    .mainContent .devamBtn {
+        background: transparent url(../../../ayar/Images/btn_devam.png) no-repeat;
+        border: none;
+        width: 80px;
+        height: 24px;
+        margin-top: 3px;
+        outline: none;
+        display: block;
+    }
+
+        .mainContent .devamBtn:hover {
+            background: transparent url(../../../ayar/Images/btn_devam.png) no-repeat left -24px;
+            border: none;
+            width: 80px;
+            height: 24px;
+            margin-top: 3px;
+        }
+
+    .mainContent .captcha {
+        width: 80px;
+        margin-left: 20px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+        .mainContent .captcha p {
+            padding-top: 6px;
+        }
+
+            .mainContent .captcha p a {
+                padding-top: 5px;
+                color: #4f9ddb;
+                text-decoration: none;
+            }
+
+                .mainContent .captcha p a:hover {
+                    color: #870052;
+                    text-decoration: none;
+                }
+
+    .mainContent .guvenlik_alan {
+        width: 440px;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 37px;
+    }
+
+        .mainContent .guvenlik_alan .guvenlik_resim {
+            border: 2px solid #d7d7d7;
+            margin-bottom: 8px;
+        }
+
+        .mainContent .guvenlik_alan .guvenlik_title {
+            font-size: 14px;
+        }
+
+        .guvenlik_number {
+            background-color: #ebeaec;
+            border: 1px solid #cccccc;
+            height:90px;  
+            text-align:center; 
+            align-items:center; 
+            padding: 25px;
+            border-radius: 3px;
+        }
+
+        .guvenlik_islem {
+            color: #870052;
+            margin-top:4px;
+            margin-left:45px;
+        }
+
+    .mainContent .guvenlik_yazi {
+        font-size: 12px;
+        width: 585px;
+        font-style:italic;
+        padding-top: 10px;
+    }
+
+        .mainContent .guvenlik_yazi p {
+            padding: 15px 0px 0px 0px;
+            font-size: 12px;
+        }
+
+            .mainContent .guvenlik_yazi p span {
+                font-weight: bold;
+            }
+
+    .mainContent .guvenlikimage {
+        width: 130px;
+    }
+
+        .mainContent .guvenlikimage .guvenlik_resim {
+            border: 2px solid #d7d7d7;
+            margin-bottom: 8px;
+        }
+
+    .mainContent .guvenlikBtndiv {
+        width: 100%;
+        height: 27px;
+        text-align: right;
+    }
+
+    .mainContent .guvenlik_resmi {
+        width: 112px;
+        border: 2px solid #CCC;
+        margin-right: 50px;
+        padding-bottom: 5px;
+    }
+
+    .mainContent .guvenlik_resmi_secim {
+        width: 121px;
+        height:88px;
+        padding: 4px;
+        border: 1px solid #a7b1ba;
+        margin-right: 17px;
+        margin-top: 15px;
+        border-radius :10px;
+    }
+
+    .mainContent .guvenlik_resmi_radioBtn {
+        width: 116px;
+        margin-right: 20px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        display: none;
+    }
+
+    .mainContent .grs_alan {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .mainContent .grs_hata {
+        color: #870052;
+        font-size: 13px;
+        padding: 30px 0px 0px 25px;
+        height: 20px;
+    }
+
+.mainContent ul {
+    padding-left: 10px;
+    list-style: none;
+    font-size: 11px;
+}
+
+    .mainContent ul li {
+        /*padding-top: 10px;
+            background: url(../../../Content/Images/ok1.gif) no-repeat;
+            background-position: 15px 18px;
+            padding-left: 25px;*/
+        /*padding-top: 5px;*/
+        background: url(../../../ayar/Images/arrow.png?uid=1954208437) no-repeat;
+        background-position: left 7px;
+        padding-left: 14px;
+        font-size: 12px;
+        /*margin-top: 10px;*/
+    }
+
+.mainContent h3 {
+    /*font-size: 18px;
+        padding-top: 20px;
+        margin-bottom: 5px;*/
+    /*padding-left: 220px;*/
+    /*color: #870052;*/
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+    .mainContent .smspage h3 {
+        color: #800d52;
+        font-weight: bold;
+        font-size: 13px;
+        margin-bottom: 10px;
+        padding-top:0px;
+        padding-left:0px;
+    }
+
+    .mainContent .softpage h3 {
+        color: #800d52;
+        font-weight: bold;
+        font-size: 13px;
+        margin-bottom: 10px;
+        padding-top:0px;
+        padding-left:0px;
+    }
+
+    .mainContent .mobilesignpage h3 {
+        color: #800d52;
+        font-weight: bold;
+        font-size: 13px;
+        margin-bottom: 10px;
+        padding-top:0px;
+        padding-left:0px;
+    }
+
+    .security_image_new {
+        border-radius: 3px;
+        border: 1px solid #cccccc;
+        width: 100%;
+        text-align: center;
+    }
+
+.contentText ul {
+    padding-left: 0px;
+    list-style: none;
+    padding-bottom: 0px;
+}
+
+    .contentText ul li {
+        padding-top: 8px;
+        background: url(../../../Content/Images/ok1.gif) no-repeat;
+        background-position: 5px 14px;
+        padding-left: 15px;
+        padding-bottom: 5px;
+    }
+
+.contentText h4 {
+    font-size: 14px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+#headerTitle {
+    /*position: absolute;*/
+    /*left: 14px;*/
+    /*top: 102px;*/
+    /*height: 35px;*/
+    z-index: 1;
+    /*width: 940px;*/
+    width: 100%;
+}
+
+#destekContent {
+   /* position: absolute;
+    left: 168px;
+    top: 359px;*/
+    width: 100%;
+    z-index: 2;
+}
+
+    #destekContent .middle {
+        background: url(../../../ayar/Images/guvenlik_middle.png) repeat-y;
+        /* padding-left: 15px;
+        padding-right: 15px;*/
+        padding-bottom: 3px;
+        background-size:contain;
+    }
+
+    #destekContent .title {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+        #destekContent .title a {
+            font-size: 12px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+            #destekContent .title a:hover {
+                color: #870052;
+                font-size: 12px;
+                font-weight: bold;
+            }
+
+    #destekContent a {
+        color: #394040;
+        text-decoration: none;
+    }
+
+        #destekContent a:link {
+            color: #394040;
+            text-decoration: none;
+        }
+
+        #destekContent a:visited {
+            color: #394040;
+            text-decoration: none;
+        }
+
+        #destekContent a:active {
+            color: #394040;
+            text-decoration: none;
+        }
+
+        #destekContent a:hover {
+            color: #3363d7;
+            text-decoration: underline;
+        }
+
+    #destekContent ul {
+        list-style: none;
+        /*padding: 0px 5px 0px 0px;*/
+    }
+
+        #destekContent ul li {
+            color: #394040;
+        }
+
+            #destekContent ul li a {
+                color: #394040;
+            }
+
+                #destekContent ul li a:link {
+                    color: #394040;
+                }
+
+                #destekContent ul li a:visited {
+                    color: #394040;
+                }
+
+                #destekContent ul li a:active {
+                    color: #394040;
+                }
+
+                #destekContent ul li a:hover {
+                    color: #3363d7;
+                }
+
+.headerTitleMiddle {
+    background: url(../../../ayar/Images/content_title_middle.png) repeat-x;
+    /*height: 23px;*/
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFF;
+    padding-top: 5px;
+    padding-left: 10px;
+    -webkit-background-size: 100% 100%;
+}
+
+.subContent {
+    background: url(../../../ayar/Images/subcontentbackground.jpg) no-repeat;
+    background-position: bottom;
+    height: 184px;
+    margin-top: 15px;
+}
+
+.subContentwebLoan {
+    background: url(../../../ayar/Images/subcontentbackground_web_loan.png) no-repeat;
+    background-position: bottom;
+    height: 184px;
+    margin-top: 15px;
+}
+
+.guvenliksubContent {
+    background: url(../../../ayar/Images/guvenlikbackground.jpg) no-repeat;
+    background-position: bottom;
+    height: 212px;
+    padding: 0px 0px 0px 0px;
+}
+
+#guvenlik {
+    /*position: absolute;
+    left: 620px;
+    top: 320px;*/
+    width: 340px;
+    height: 150px;
+    z-index: 3;
+}
+
+#guvenlik h3 {
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#guvenlik ul {
+    padding-left: 10px;
+    list-style: none;
+    font-size: 11px;
+}
+
+#guvenlik ul li {
+    padding-top: 5px;
+    background: url(../../../ayar/Images/arrow.png) no-repeat;
+    background-position: left 7px;
+    padding-left: 14px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+ #guvenlik_captcha {
+    /*position: absolute;
+    left: 625px;
+    top: 87px;*/
+    width: 345px;
+    height: 150px;
+    z-index: 3;
+}
+
+#guvenlik_captcha h3 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left:10px;
+}
+
+#guvenlik_captcha ul {
+    padding-left: 10px;
+    list-style: none;
+    font-size: 11px;
+}
+
+#guvenlik_captcha ul li {
+    padding-top: 5px;
+    background: url(../../../ayar/Images/arrow.png) no-repeat;
+    background-position: left 7px;
+    padding-left: 14px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#guvenlik_changepass {
+   /* position: absolute;
+    left: 650px;
+    top: 110px;*/
+    width: 330px;
+    height: 150px;
+    z-index: 3;
+}
+
+#guvenlik_changepass h3 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left:10px;
+}
+
+#guvenlik_changepass ul {
+    padding-left: 10px;
+    list-style: none;
+    font-size: 11px;
+}
+
+#guvenlik_changepass ul li {
+    padding-top: 5px;
+    background: url(../../../ayar/Images/arrow.png) no-repeat;
+    background-position: left 7px;
+    padding-left: 14px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.login-footer {
+    background: url(../../../ayar/Images/footer_background.jpg) repeat-x;
+    height: 21px;
+    text-align: right;
+    padding-top: 8px;
+    padding-right: 13px;
+}
+
+#verisign {
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    width: 73px;
+    height: 45px;
+    z-index: 4;
+}
+
+#apDiv1 {
+   /* position: absolute;
+    left: 162px;
+    top: 370px;*/
+    width: 13px;
+    height: 13px;
+    z-index: 5;
+}
+
+
+#destekContent_pink {
+   /* position: absolute;
+    left: 168px;
+    top: 359px;*/
+    width: 100%;
+    z-index: 2;
+}
+
+    #destekContent_pink .middle {
+        background: url(../../../ayar/Images/guvenlik_middle_pink.png) repeat-y;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-size:cover;
+    }
+
+    #destekContent_pink .title {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    #destekContent_pink a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+        #destekContent_pink a:link {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #destekContent_pink a:visited {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #destekContent_pink a:active {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #destekContent_pink a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+    #destekContent_pink ul {
+        list-style: none;
+        padding: 0px 5px 0px 0px;
+        margin-bottom:0px !important;
+    }
+
+        #destekContent_pink ul li {
+            color: #fff;
+        }
+
+            #destekContent_pink ul li a {
+                color: #fff;
+                font-weight: bold;
+            }
+
+                #destekContent_pink ul li a:link {
+                    color: #fff;
+                }
+
+                #destekContent_pink ul li a:visited {
+                    color: #fff;
+                }
+
+                #destekContent_pink ul li a:active {
+                    color: #efff;
+                }
+
+                #destekContent_pink ul li a:hover {
+                    color: #0a3b75;
+                }
+
+#apDivPink {
+    /*position: absolute;*/
+    left: 162px;
+    top: 370px;
+    width: 13px;
+    height: 13px;
+    z-index: 5;
+    margin-right: 5px;
+}
+
+.otpfield {
+    margin-top: 15px;
+}
+
+.logininfopop {
+    width: 645px;
+    height: 210px;
+    background: url(../../../ayar/Images/backgrpund.jpg) no-repeat;
+    margin: 20px;
+}
+
+#webLoanInfoDiv {
+    position: relative;
+    left: 30px;
+    top: 25px;
+    width: 472px;
+    height: 126px;
+    z-index: 3;
+}
+
+    #webLoanInfoDiv h1 {
+        font-size: 14px;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+
+    #webLoanInfoDiv ul {
+        padding-left: 10px;
+        list-style: none;
+        font-size: 11px;
+    }
+
+        #webLoanInfoDiv ul li {
+            padding-top: 10px;
+            background: url(../../../ayar/Images/ok1.gif) no-repeat;
+            background-position: left 16px;
+            padding-left: 10px;
+        }
+
+#webLoanReturnLink {
+    position: relative;
+    left: 530px;
+    top: -45px;
+    width: 472px;
+    height: 126px;
+    z-index: 3;
+    color: #870052;
+}
+
+#preload-img
+{
+    position:absolute;
+    z-index:01;
+}
+
+.btn_sms_gonder {
+    background: url(../../../ayar/Images/btn_sms_gonder.png) no-repeat;
+    width: 85px;
+    height: 19px;
+    text-indent: -9999px; /*position:absolute;*/
+    margin-top:10px;
+    float: left;
+    top: 86px;
+    outline: none;
+}
+.btn_sms_gonder:hover { background:url(../../../ayar/Images/btn_sms_gonder.png) no-repeat; background-position:0 -19px; width:85px; height:19px; text-indent:-9999px }
+.btn_sms_gonder a { background:url(../../../ayar/Images/btn_sms_gonder.png) no-repeat; width:85px; height:19px; text-indent:-9999px; display:block }
+.btn_sms_gonder a:hover { background:url(../../../ayar/Images/btn_sms_gonder.png) no-repeat; background-position:0 -19px; width:85px; height:19px; text-indent:-9999px }
+
+.btn_sms_gonder_EN {
+    background: url(../../../ayar/Images/btn_sms_gonder_EN.png) no-repeat;
+    width: 85px;
+    height: 19px;
+    text-indent: -9999px;
+    /*position:absolute;*/
+    float: right;
+    margin-top: 10px;
+    top: 100px;
+    left: 15px;
+    outline: none;
+}
+.btn_sms_gonder_EN:hover { background:url(../../../ayar/Images/btn_sms_gonder_EN.png) no-repeat; background-position:0 -19px; width:85px; height:19px; text-indent:-9999px }
+.btn_sms_gonder_EN a { background:url(../../../ayar/Images/btn_sms_gonder_EN.png) no-repeat; width:85px; height:19px; text-indent:-9999px; display:block }
+.btn_sms_gonder_EN a:hover { background:url(../../../ayar/Images/btn_sms_gonder_EN.png) no-repeat; background-position:0 -19px; width:85px; height:19px; text-indent:-9999px }
+
+.btn_tekrar_gonder {
+    background: url(../../../ayar/Images/btn_tekrargonder_tr2.png) no-repeat;
+    width: 118px;
+    height: 19px;
+    text-indent: -9999px; /*position:absolute;*/
+    margin-top: 10px;
+    float: left;
+    top: 86px;
+    outline: none;
+}
+
+    .btn_tekrar_gonder:hover {
+        background: url(../../../ayar/Images/btn_tekrargonder_tr2.png) no-repeat;
+        background-position: 0 -19px;
+        width: 118px;
+        height: 19px;
+        text-indent: -9999px
+    }
+
+    .btn_tekrar_gonder a {
+        background: url(../../../ayar/Images/btn_tekrargonder_tr2.png) no-repeat;
+        width: 118px;
+        height: 19px;
+        text-indent: -9999px;
+        display: block
+    }
+
+        .btn_tekrar_gonder a:hover {
+            background: url(../../../ayar/Images/btn_tekrargonder_tr2.png) no-repeat;
+            background-position: 0 -19px;
+            width: 118px;
+            height: 19px;
+            text-indent: -9999px
+        }
+
+.btn_tekrar_gonder_EN {
+    background: url(../../../ayar/Images/btn_tekrargonder_en2.png) no-repeat;
+    width: 118px;
+    height: 19px;
+    text-indent: -9999px;
+    /*position:absolute;*/
+    float: right;
+    margin-top: 10px;
+    top: 100px;
+    left: 15px;
+    outline: none;
+}
+
+    .btn_tekrar_gonder_EN:hover {
+        background: url(../../../ayar/Images/btn_tekrargonder_en2.png) no-repeat;
+        background-position: 0 -19px;
+        width: 118px;
+        height: 19px;
+        text-indent: -9999px
+    }
+
+    .btn_tekrar_gonder_EN a {
+        background: url(../../../ayar/Images/btn_tekrargonder_en2.png) no-repeat;
+        width: 118px;
+        height: 19px;
+        text-indent: -9999px;
+        display: block
+    }
+
+        .btn_tekrar_gonder_EN a:hover {
+            background: url(../../../ayar/Images/btn_tekrargonder_en2.png) no-repeat;
+            background-position: 0 -19px;
+            width: 118px;
+            height: 19px;
+            text-indent: -9999px
+        }
+
+/*new */
+
+.header {
+    background: url(../../../ayar/Images/ResponsiveLogin/1024_intsube.jpg) no-repeat;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.master-footer {
+    padding-left: 115px;
+}
+.mainPanel-width {
+    /*width: 65% !important;*/
+}
+.subPanel-width {
+    width: 100% !important;
+}
+@media only screen and (max-width: 830px) {
+    .master-footer {
+        padding-left: 115px;
+    }
+}
+
+/*Silinmesi konusunda sonradan karar verılecek*/
+/*@media only screen and (min-width: 576px) and (max-width: 830px) {
+    .footer {
+        position: fixed !important;
+        left: 0 !important;
+        bottom: 0 !important;
+        padding: 15px 0px 15px 0px !important;
+    }
+
+        .footer ul {
+            float: left !important;
+            margin-top: 10px !important;
+            padding: 5px 15px 0px 15px !important;
+        }
+
+        .footer ul li a {
+            outline: none !important;*/
+            /*margin-left: 0px !important;*/
+            /*padding-left: 0px;*/
+            /*margin-left: 5px !important;*/
+            /*padding: 0px 5px 0px 0px !important;*/
+            /*margin-left: 0px !important;*/
+        /*}
+}*/
+.form-info-tooltip-captcha {
+    margin-top: 5px !important;
+    color: #116fc4;
+    background-color: #eeeeee;
+    border-radius: 3px;
+    padding: 15px;
+    width: 100%;
+    line-height: 140%;
+    margin-left: 18px;
+    margin-right: 10px;
+    background: url(../../../ayar/Images/alert-icon.png) no-repeat center right 23px #eeeeee;
+}
+.form-info-tooltip-text {
+    background-color: #eeeeee;
+    border-radius: 3px;
+    padding: 15px;
+    width: 100%;
+    line-height: 140%;
+    
+}
+.form-info-tooltip-hourglass {
+    background-color: #eeeeee;
+    border-radius: 3px;
+    padding: 15px;
+    width: 100%;
+    line-height: 140%;
+    color: #116fc4;
+    min-height: 100%;
+    background: url(../../../ayar/Images/hourglass.png) no-repeat center right 23px #eeeeee;
+}
+.form-info-tooltip {
+    color: #116fc4;
+    background-color: #eeeeee;
+    border-radius: 3px;
+    padding: 15px;
+    width: 100%;
+    line-height: 140%;
+    background: url(../../../ayar/Images/alert-icon.png?uid=30267360) no-repeat center right 23px #eeeeee;
+}
+.form-info-tooltip-sms {
+   
+    background-color: #eeeeee;
+    border-radius: 3px;
+    padding: 15px;
+    width: 100%;
+    line-height: 140%;
+    color: #116fc4;
+    background: url(../../../ayar/Images/alert-icon.png) no-repeat center right 23px #eeeeee;
+}
+.form-info-tooltip-image {
+    background-color: #eeeeee;
+    border-radius: 3px;
+    padding: 15px;
+    width: 100%;
+    line-height: 140%;
+}
+.form-info-tooltip-image-error {
+    background-color: #eeeeee;
+    border-radius: 3px;
+    padding: 15px;
+    width: 100%;
+    line-height: 140%;
+    color: #116fc4;
+    background: url(../../../ayar/Images/alert-icon.png) no-repeat center right 23px #eeeeee;
+}
+.form-info-tooltip-changepasstxt {
+    background-color: #eeeeee;
+    border-radius: 3px;
+    padding: 15px;
+    width: 100%;
+    line-height: 140%;
+}
+.form-info-tooltip-changepass {
+    background-color: #eeeeee;
+    border-radius: 3px;
+    padding: 15px;
+    width: 100%;
+    line-height: 140%;
+    color: #116fc4;
+    min-height: 100%;
+    background: url(../../../ayar/Images/alert-icon.png) no-repeat center right 23px #eeeeee;
+}
+
+.webLoanReturnClass {
+    margin-top: 20px;
+    color: #800d52
+}
+
+@media only screen and (max-width: 990px) {
+    .mainPanel-width {
+        /*width: 100% !important;*/
+    }
+    .mainContent .captcha {
+        margin-left: 0px;
+    }
+    .process-right .captcha-box {
+        margin:0px !important;
+    }
+    .containerkeypad{
+        visibility:hidden !important;
+        display:none !important;
+    }
+   
+}
+
+@media only screen and (min-width: 576px) and (max-width: 990px) {
+    .subPanel-width {
+        width: 100% !important;
+    }
+    .form-info-tooltip-hourglass {
+        padding: 10px;
+        margin: 10px 0px 10px 0px;
+        background: url(../../../ayar/Images/ResponsiveLogin/40kum.png) no-repeat center right 23px #eeeeee;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .webLoanReturnClass {
+        margin-top: 20px;
+    }
+    .info-box {
+        
+        padding: 0px !important;
+    }
+    .footer {
+        position: relative !important;
+        left: 0 !important;
+        bottom: 0 !important;
+        padding: 15px 0px 15px 0px !important;
+    }
+
+        .footer ul {
+            float: left !important;
+            margin-top: 10px !important;
+            padding: 5px 15px 0px 15px !important;
+        }
+
+            .footer ul li a {
+                outline: none !important;
+                margin-left: 0px !important;
+                padding: 0px 10px 0px 0px !important;
+                /*padding-left: 0px !important;*/
+                /*border-right: 1px solid #b5aea9 !important;*/
+            }
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    .login-input-error {
+        position: static !important;
+        margin-top: 0px !important;
+    }
+
+    .error-message-outer {
+        position: static !important;
+        margin-top: 5px !important;
+    }
+
+    .ileriButton {
+        width: 100% !important;
+        position: static !important;
+    }
+    .proceedButton {
+        width: 100% !important;
+        position: static !important;
+    }
+
+    .mainContent {
+        padding: 0px !important;
+    }
+
+        .mainContent .textfield {
+            width: 100% !important;
+        }
+
+        .mainContent .passive_textfield {
+            width: 100% !important;
+        }
+
+        .mainContent .captcha {
+            width: 100% !important;
+            margin: 0px !important;
+        }
+
+    .process-left {
+        margin-bottom: 10px !important;
+    }
+
+    .process-right .captcha-box {
+        margin: 0px !important;
+        width: 100% !important;
+    }
+    
+
+    .captcha {
+        height: 100% !important;
+    }
+
+    .mt-mobile-10 {
+        margin-top: 10px;
+    }
+
+    .divtextfield {
+        width: 100% !important;
+        margin-top: 20px !important;
+        text-align: center !important;
+    }
+
+    .form-info-tooltip-captcha {
+        margin-top: 5px !important;
+        color: #116fc4;
+        background-color: #eeeeee;
+        border-radius: 3px;
+        padding: 15px;
+        width: 100%;
+        line-height: 140%;
+        margin-left: 0px;
+        margin-right: 0px;
+        background: url(../../../ayar/Images/alert-icon.png) no-repeat center right 23px #eeeeee;
+    }
+
+
+    /*SmsOtp*/
+
+    .form-info-tooltip-text {
+        padding: 10px;
+        margin:10px 0px 10px 0px;
+       
+    }
+    .form-info-tooltip-hourglass {
+        padding: 10px;
+        margin: 10px 0px 10px 0px;
+    }
+    .form-info-tooltip {
+        padding: 10px;
+        margin: 10px 0px 10px 0px;
+    }
+    .form-info-tooltip-sms {
+        padding: 10px;
+        margin: 10px 0px 10px 0px;
+    }
+    .form-info-tooltip-image {
+        padding: 10px;
+        margin: 10px 0px 10px 0px;
+    }
+    .form-info-tooltip-image-error {
+        padding: 10px;
+        margin: 10px 0px 10px 0px;
+    }
+   .form-info-tooltip-changepasstxt {
+        padding: 10px;
+        margin: 10px 0px 10px 0px;
+    }
+    .form-info-tooltip-changepass {
+        padding: 10px;
+        margin: 10px 0px 10px 0px;
+    }
+    /*ImageSelection*/
+    .image-selection-grid {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .w-100-mobile {
+        width: 100% !important;
+    }
+    .w-100-mobile a{
+        width: 100% !important;
+    }
+    .mainContent .guvenlikBtndiv {
+        width:100% !important;
+       
+    }
+}
+
+@media only screen and (min-width: 830px) and (max-width: 990px) {
+    .mainContent .passive_textfield {
+        width: 100% !important;
+    }
+    .divtextfield {
+        width: 100% !important;
+    }
+    .form-info-tooltip-captcha {
+        width: 100% !important;
+        margin-left: 0px;
+    }
+}
+
+
+/*Yeni header ve Logo img işlemleri*/
+
+@media only screen and (min-width: 560px) and (max-width: 990px) {
+
+    .header {
+        background: url(../../../ayar/Images/ResponsiveLogin/640_intsube.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    .digitalBridge-header {
+        background: url(../../../ayar/Images/ResponsiveLogin/640_dijital.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    .egov-header {
+        background: url(../../../ayar/Images/ResponsiveLogin/640_edevlet.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    .header-ing {
+        background: url(../../../ayar/Images/ResponsiveLogin/640_intbank_en.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .egov-header-ing {
+        background: url(../../../ayar/Images/ResponsiveLogin/640_edevlet.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    .form-info-tooltip-captcha {
+        background: url(../../../Content/Images/ResponsiveLogin/36alert.png) no-repeat center right 23px #eeeeee;
+    }
+    .form-info-tooltip {
+        background: url(../../../Content/Images/ResponsiveLogin/36alert.png?uid=30267360) no-repeat center right 23px #eeeeee;
+    }
+    .form-info-tooltip-sms {
+        background: url(../../../Content/Images/ResponsiveLogin/36alert.png) no-repeat center right 23px #eeeeee;
+    }
+    .form-info-tooltip-image-error {
+        background: url(../../../Content/Images/ResponsiveLogin/36alert.png) no-repeat center right 23px #eeeeee;
+    }
+    .form-info-tooltip-changepass {
+        background: url(../../../Content/Images/ResponsiveLogin/36alert.png) no-repeat center right 23px #eeeeee;
+    }
+    .form-info-tooltip-captcha {
+        background: url(../../../Content/Images/ResponsiveLogin/36alert.png) no-repeat center right 23px #eeeeee;
+    }
+
+    .form-info-tooltip-hourglass {
+        background: url(../../../Content/Images/ResponsiveLogin/36kum.png) no-repeat center right 23px #eeeeee;
+    }
+    .form-group .form-info-tooltip.hourglass {
+        background: url(../../../Content/Images/ResponsiveLogin/36kum.png) no-repeat center right 23px #eeeeee;
+    }
+    .form-group .form-info-tooltip-sms.hourglass {
+        background: url(../../../Content/Images/ResponsiveLogin/36kum.png) no-repeat center right 23px #eeeeee;
+    }
+    .form-group .form-info-tooltip-text.hourglass {
+        background: url(../../../Content/Images/ResponsiveLogin/36kum.png) no-repeat center right 23px #eeeeee;
+    }
+    .form-group .form-info-tooltip-changepass.hourglass {
+        background: url(../../../Content/Images/ResponsiveLogin/36kum.png) no-repeat center right 10px #eeeeee;
+    }
+    .form-group .form-info-tooltip-changepasstxt.hourglass {
+        background: url(../../../Content/Images/ResponsiveLogin/36kum.png) no-repeat center right 10px #eeeeee;
+    }
+    .form-group .form-info-tooltip-tckn.hourglass {
+        background: url(../../../Content/Images/ResponsiveLogin/36kum.png) no-repeat center right 23px #eeeeee;
+    }
+    .form-group .form-info-tooltip-qr-hourglass {
+        background: url(../../../Content/Images/ResponsiveLogin/36kum.png) no-repeat center right 23px #eeeeee;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_intsube.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    .digitalBridge-header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_dijital.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    .egov-header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_edevlet.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    .header-ing {
+        background: url(../../../Content/Images/ResponsiveLogin/320_intbank_en.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .egov-header-ing {
+        background: url(../../../Content/Images/ResponsiveLogin/320_edevlet.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    .form-info-tooltip-captcha {
+        background: url(../../../Content/Images/ResponsiveLogin/32alert.png) no-repeat center right 23px #eeeeee;
+    }
+
+    .form-info-tooltip {
+        background: url(../../../Content/Images/ResponsiveLogin/32alert.png?uid=30267360) no-repeat center right 23px #eeeeee;
+    }
+
+    .form-info-tooltip-sms {
+        background: url(../../../Content/Images/ResponsiveLogin/32alert.png) no-repeat center right 23px #eeeeee;
+    }
+
+    .form-info-tooltip-image-error {
+        background: url(../../../Content/Images/ResponsiveLogin/32alert.png) no-repeat center right 23px #eeeeee;
+    }
+
+    .form-info-tooltip-changepass {
+        background: url(../../../Content/Images/ResponsiveLogin/32alert.png) no-repeat center right 23px #eeeeee;
+    }
+
+    .form-info-tooltip-captcha {
+        background: url(../../../Content/Images/ResponsiveLogin/32alert.png) no-repeat center right 23px #eeeeee;
+    }
+
+    .form-info-tooltip-hourglass {
+        background: url(../../../Content/Images/ResponsiveLogin/32kum.png) no-repeat center right 23px #eeeeee;
+    }
+
+    .form-group .form-info-tooltip.hourglass {
+        background: url(../../../Content/Images/ResponsiveLogin/32kum.png) no-repeat center right 23px #eeeeee;
+    }
+
+    .form-group .form-info-tooltip-sms.hourglass {
+        background: url(../../../Content/Images/ResponsiveLogin/32kum.png) no-repeat center right 23px #eeeeee;
+    }
+
+    .form-group .form-info-tooltip-text.hourglass {
+        background: url(../../../Content/Images/ResponsiveLogin/32kum.png) no-repeat center right 23px #eeeeee;
+    }
+
+    .form-group .form-info-tooltip-changepass.hourglass {
+        background: url(../../../Content/Images/ResponsiveLogin/32kum.png) no-repeat center right 10px #eeeeee;
+    }
+
+    .form-group .form-info-tooltip-changepasstxt.hourglass {
+        background: url(../../../Content/Images/ResponsiveLogin/32kum.png) no-repeat center right 10px #eeeeee;
+    }
+
+    .form-group .form-info-tooltip-tckn.hourglass {
+        background: url(../../../Content/Images/ResponsiveLogin/32kum.png) no-repeat center right 23px #eeeeee;
+    }
+
+    .form-group .form-info-tooltip-qr-hourglass {
+        background: url(../../../Content/Images/ResponsiveLogin/32kum.png) no-repeat center right 23px #eeeeee;
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+    .header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_intsube.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .digitalBridge-header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_dijital.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .egov-header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_edevlet.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .header-ing {
+        background: url(../../../Content/Images/ResponsiveLogin/320_intbank_en.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .egov-header-ing {
+        background: url(../../../Content/Images/ResponsiveLogin/320_edevlet.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 400px) {
+    .header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_intsube.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .digitalBridge-header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_dijital.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .egov-header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_edevlet.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .header-ing {
+        background: url(../../../Content/Images/ResponsiveLogin/320_intbank_en.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .egov-header-ing {
+        background: url(../../../Content/Images/ResponsiveLogin/320_edevlet.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 440px) {
+    .header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_intsube.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .digitalBridge-header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_dijital.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .egov-header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_edevlet.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .header-ing {
+        background: url(../../../Content/Images/ResponsiveLogin/320_intbank_en.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .egov-header-ing {
+        background: url(../../../Content/Images/ResponsiveLogin/320_edevlet.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+}
+@media only screen and (min-width: 440px) and (max-width: 480px) {
+    .header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_intsube.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .digitalBridge-header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_dijital.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .egov-header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_edevlet.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .header-ing {
+        background: url(../../../Content/Images/ResponsiveLogin/320_intbank_en.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .egov-header-ing {
+        background: url(../../../Content/Images/ResponsiveLogin/320_edevlet.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 520px) {
+    .header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_intsube.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .digitalBridge-header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_dijital.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .egov-header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_edevlet.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .header-ing {
+        background: url(../../../Content/Images/ResponsiveLogin/320_intbank_en.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .egov-header-ing {
+        background: url(../../../Content/Images/ResponsiveLogin/320_edevlet.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+}
+@media only screen and (min-width: 520px) and (max-width: 560px) {
+    .header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_intsube.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .digitalBridge-header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_dijital.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .egov-header {
+        background: url(../../../Content/Images/ResponsiveLogin/320_edevlet.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .header-ing {
+        background: url(../../../Content/Images/ResponsiveLogin/320_intbank_en.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .egov-header-ing {
+        background: url(../../../Content/Images/ResponsiveLogin/320_edevlet.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+}
+
+/*İede çalışmayan cssler ile ilgili düzenlemeler için kullanılacaktır.*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .row-left-padding {
+        padding-left: 10px;
+    }
+   /* .p-10-ch {
+        padding:0px !important;
+    }*/
+    section {
+        padding: 0px !important;
+    }
+}
+
+
+.headerTest-white {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-purple {
+    background: linear-gradient( 90deg, #0b0d36 50%, #880052 100%) !important;
+    display: flex;
+    justify-content: space-between;
+    height:68px;
+}
+
+    .header-purple .headerLeftDiv {
+        width: 250px;
+        background-image: url(../../ayar/resim/ResponsiveLogin/kusakli_web.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .header-purple .headerRightDiv {
+        width: 150px;
+        background-image: url(../../../Content/Images/ResponsiveLogin/edevlet_web.png?uid=703680717);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 16px;
+    }
+
+
+.header-white {
+        background: white;
+        display: flex;
+        justify-content: space-between;
+        height: 68px;
+    }
+
+    .header-white .headerImgText {
+        color: #870052;
+        font-weight: bold;
+        font-family: Cordale;
+    }
+    .header-white .headerLeftDiv {
+        width: 150px;
+        background-image: url(../../ayar/resim/ResponsiveLogin/kusakli_web.png);
+        background-size: contain;
+        margin-left: 16px;
+        margin-top: 10px;
+        background-repeat: no-repeat;
+        
+    }
+.headerImgText {
+    margin-left: -1px;
+    font-size: 22px;
+    color: white;
+    align-self: center;
+    margin-right: 16px;
+    color:#FFFFFF;
+    text-align: end;
+    font-weight: bold;
+    font-family: helvetica;
+}
+.headerLeftImg {
+    
+    margin-top:5px;
+    margin-left: 16px;
+}
+.headerRightImg {
+    width: 15rem;
+    height: 7rem;
+    margin-right: 16px;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .header-purple{
+        height:50px;
+    }
+    .header-white {
+        height: 50px;
+    }
+
+    .header-purple .headerLeftDiv {
+        width: 150px;
+        background-image: url(../../ayar/resim/ResponsiveLogin/kusakli_mobile2x.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .header-purple .headerRightDiv {
+        background-image: url(../../../Content/Images/ResponsiveLogin/edevlet_mobile2x.png?uid=703680717);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .header-white .headerLeftDiv {
+        width: 100px;
+        background-image: url(../../../Content/Images/ResponsiveLogin/kusaksiz_mobile2x.png?uid=703680717);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 16px;
+        margin-top: 10px;
+    }
+
+
+    .headerImgText {
+        font-size: 12px !important;
+    }
+}
+.p-10-ch {
+    padding: 10px;
+}
